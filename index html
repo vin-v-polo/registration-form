@@ -1,0 +1,45 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Patient Registration Form</title>
+</head>
+<body>
+
+    <h2>Patient Registration Form</h2>
+
+    <form>
+
+        <p>Full Name: <input type="text" name="name"></p>
+        <p>Date of Birth: <input type="date" name="dob"></p>
+        <p>Gender: 
+            <select name="gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </p>
+        <p>Contact Number: <input type="tel" name="phone"></p>
+        <p>Email: <input type="email" name="email"></p>
+
+        <p>Address: <input type="text" name="address"></p>
+        <p>City: <input type="text" name="city"></p>
+        <p>State: <input type="text" name="state"></p>
+        <p>Postal Code: <input type="text" name="zip"></p>
+
+        <p>Known Allergies: <textarea name="allergies"></textarea></p>
+        <p>Current Medications: <textarea name="medications"></textarea></p>
+
+        <p>Insurance Provider: <input type="text" name="insurance"></p>
+        <p>Policy Number: <input type="text" name="policy"></p>
+
+        <p>Emergency Contact Name: <input type="text" name="emergency-name"></p>
+        <p>Emergency Contact Number: <input type="tel" name="emergency-phone"></p>
+
+        <p><input type="checkbox" name="terms"> I agree to the terms and conditions.</p>
+
+        <p><input type="submit" value="Submit"></p>
+
+    </form>
+
+</body>
+</html>
